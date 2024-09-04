@@ -34,7 +34,7 @@ math: false
 
 * 执行neofetch命令
 
-  ![neofetch](https://github.com/1dentity84/memo/blob/main/static/images/neofetch.jpg?raw=true)
+  ![neofetch](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/neofetch.jpg)
 
 >**若系统中neofetch丢失，通过以下命令安装neofetch**
 >

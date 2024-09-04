@@ -35,37 +35,37 @@ Windows 下烧录时，需要先进入高级启动模式，禁用数字签名，
 
 1. 设置 - 系统 - 恢复 - 高级启动 - 立即重新启动
 
-![pic1](https://github.com/1dentity84/memo/blob/main/static/images/pic1.jpg?raw=true)
+![pic1](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic1.jpg)
 
-![pic2](https://github.com/1dentity84/memo/blob/main/static/images/pic2.jpg?raw=true)
+![pic2](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic2.jpg)
 
 2. 重启后，点击 疑难解答 - 高级选项 - 启动设置 - 重启
 
-![pic3](https://github.com/1dentity84/memo/blob/main/static/images/pic3.jpg?raw=true)
+![pic3](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic3.jpg)
 
-![pic4](https://github.com/1dentity84/memo/blob/main/static/images/pic4.jpg?raw=true)
+![pic4](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic4.jpg)
 
 3. 按F7 选择“禁用驱动程序强制签名”，随即电脑自动重启
 
-![pic5](https://github.com/1dentity84/memo/blob/main/static/images/pic5.jpg?raw=true)
+![pic5](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic5.jpg)
 
 ### 2.2. Windows 下安装驱动
 
 1. 按住板上的白色 `BOOT` 按键不放，用 USB-C 线将开发板和电脑连接起来，打开设备管理器出现 `USB download gadget` 设备，说明 LPi4A 设备已进入烧录模式
 
-![pic6](https://github.com/1dentity84/memo/blog/blob/main/static/images/pic6.jpg?raw=true)
+![pic6](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic6.jpg)
 
 2. 双击上图中的 `USB download gadget` ，点击 “更新驱动程序”
 
-![pic7](https://github.com/1dentity84/memo/blob/main/static/images/pic7.jpg?raw=true)
+![pic7](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic7.jpg)
 
 
 
 3. 粘上驱动程序目录的路径
 
-![pic8](https://github.com/1dentity84/memo/blob/main/static/images/pic8.jpg?raw=true)
+![pic8](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic8.jpg)
 
-![pic9](https://github.com/1dentity84/memo/blob/main/static/images/pic9.jpg?raw=true)
+![pic9](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic9.jpg)
 
 + 到这里驱动就安装完成啦！
 
@@ -77,19 +77,19 @@ Windows 下烧录时，需要先进入高级启动模式，禁用数字签名，
 
 **修改前：**
 
-![pic10](https://github.com/1dentity84/memo/blob/main/static/images/pic10.jpg?raw=true)
+![pic10](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic10.jpg)
 
 
 
 **修改后如下：**
 
-![pic11](https://github.com/1dentity84/memo/blob/main/static/images/pic11.jpg?raw=true)
+![pic11](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic11.jpg)
 
 ### 3.2. 启动烧录程序
 
 + 双击运行 `burn_lpi4a.bat` 开始烧录，出现如下界面证明烧录成功啦！
 
-![pic12](https://github.com/1dentity84/memo/blob/main/static/images/pic12.jpg?raw=true)
+![pic12](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic12.jpg)
 
 ##  四、登录OpenEuler RISC-V
 
@@ -97,7 +97,7 @@ Windows 下烧录时，需要先进入高级启动模式，禁用数字签名，
 - 默认密码: `openEuler12#$`
 - 执行 neofetch 命令
 
-![pic13](https://github.com/1dentity84/memo/blob/main/static/images/pic13.jpg?raw=true)
+![pic13](https://raw.githubusercontent.com/1dentity84/memo/main/static/images/pic13.jpg)
 
 #### **注意事项：**
 
