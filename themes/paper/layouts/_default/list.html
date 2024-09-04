@@ -27,7 +27,7 @@
   >
     <img
       class="my-0 h-full w-full rounded-full !bg-black/5 hover:animate-spin dark:!bg-black/80"
-      src="{{ $avatar_url }}"
+      src="https://avatars.githubusercontent.com/u/142194116?v=4"
       alt="{{ site.Params.name | default site.Title }}"
     />
   </div>
@@ -38,8 +38,7 @@
       {{ site.Params.name }}
     </div>
     <div class="break-words">
-      {{ site.Params.bio | default (print `A personal blog by `
-      site.Params.name) }}
+      {{ site.Params.bio }}
     </div>
   </div>
   {{ end }}

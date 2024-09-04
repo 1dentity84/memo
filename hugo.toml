@@ -19,9 +19,9 @@ title = "Life itself is controlled chaos"
 
   github = 'JoannaWu84'
 
-  #avatar = 'nanxiaobei@gmail.com'
+  avatar = 'nanxiaobei@gmail.com'
   name = 'Joanna Wu'
-  #bio = 'Discover fresh context'
+  # bio = 'Welcome to my blog'
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
