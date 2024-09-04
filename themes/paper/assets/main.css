@@ -813,12 +813,19 @@ pre {
   font-size: 0.875em;
 }
 
-.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+/* .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
   content: "`";
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
   content: "`";
+} */
+
+.prose :where(code) {
+  background-color: rgba(47, 44, 44, 0.062);
+  border: .1rem solid #0000001a;
+  border-radius: 3px;
+  padding: 0.1rem 0.1rem;
 }
 
 .prose :where(a code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
